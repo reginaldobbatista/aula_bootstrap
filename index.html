@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <title>Minha página</title>
+    <title>Cataflix - A Plataforma do Concurseiro</title>
     <meta charset="utf-8" />
     <link
       rel="stylesheet"
@@ -12,18 +12,77 @@
   </head>
   <body>
     <!-- begin Navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">
-        <img src="./img/logo-cataflix.png" alt="logo cataflix" width="130" />
-      </a>
+    <nav class="navbar navbar-expand-lg bg-dark.bg-gradient">
       <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbar">
-          <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="#">Início</a>
-            <a class="nav-link" href="index.html#quem-somos">Quem somos</a>
-            <a class="nav-link" href="index.html#cursos">Cursos</a>
-            <a class="nav-link">Contato</a>
-          </div>
+        <a class="navbar-brand" href="#">
+          <img
+            src="./img/logo-cataflix.png"
+            alt="logo cataflix"
+            width="120px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem Somos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="true"
+              >
+                Cursos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Concurso Soldado PMAM</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Concurso Oficial PMAM</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Policia Penal</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">OAB</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="digite aqui..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Pesquisar
+            </button>
+          </form>
         </div>
       </div>
     </nav>
@@ -111,4 +170,9 @@
       </a>
     </footer>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
 </html>
