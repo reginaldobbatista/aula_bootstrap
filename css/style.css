@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #313131;
+}
+.nav-link {
+  color: white;
+}
+
+.quem-somos {
+  background-color: #ececec;
+}
+.padding-top-bottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container {
+  background-color: #ececec;
+}
+.footer {
+  background-color: #313131;
+  color: #ececec;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
